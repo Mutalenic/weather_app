@@ -1,6 +1,7 @@
 import Cities from './components/Cities';
 import CityInput from './components/CityInput';
 import DateTimeLocation from './components/DateTimeLocation';
+import WeatherParameters from './components/WeatherParameters';
 // import UilReact from '@iconscout/react-unicons/icons/uil-react';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <CityInput />
 
       <DateTimeLocation />
+      <WeatherParameters />
     </div>
 
   );
