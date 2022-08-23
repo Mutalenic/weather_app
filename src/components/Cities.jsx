@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 function Cities() {
-  return (
-    <div>Cities</div>
-  )
+  return <div>Cities</div>;
 }
 
-export default Cities
+export default Cities;
