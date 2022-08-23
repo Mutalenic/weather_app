@@ -8,8 +8,8 @@ function DateTimeLocation() {
           Monday, 22 August 2022 | Local time:21:08pm
         </p>
       </div>
-      <div>
-        <p className="items-center justify-center my-3">Lusaka</p>
+      <div className="flex items-center justify-center my-6">
+        <p className="text-white text-3xl font-medium">Lusaka</p>
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function WeatherParameters() {
   return (
     <div>WeatherParameters</div>
-  )
+  );
 }
 
-export default WeatherParameters
+export default WeatherParameters;
