@@ -1,4 +1,3 @@
-import './App.css';
 import Cities from './components/Cities';
 import CityInput from './components/CityInput';
 import DateTimeLocation from './components/DateTimeLocation';
