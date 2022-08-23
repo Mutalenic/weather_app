@@ -1,0 +1,18 @@
+import React from 'react';
+
+function DateTimeLocation() {
+  return (
+    <div>
+      <div className=" items-center justify-center my-6">
+        <p className="text-white text-xl font-extralight">
+          Monday, 22 August 2022 | Local time:21:08pm
+        </p>
+      </div>
+      <div>
+        <p className="items-center justify-center my-3">Lusaka</p>
+      </div>
+    </div>
+  );
+}
+
+export default DateTimeLocation;
