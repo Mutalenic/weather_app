@@ -13,7 +13,9 @@ function App() {
 
       <DateTimeLocation />
       <WeatherParameters />
-      <Forecast />
+      <Forecast title="Hourly weather" />
+      <Forecast title="daily weather" />
+
     </div>
 
   );

@@ -1,11 +1,12 @@
 import React from 'react';
 import sun from '../assets/sun.svg';
+/* eslint-disable react/prop-types */
 
-function Forecast() {
+function Forecast({ title }) {
   return (
     <div>
       <div className="flex items-center justify-start my-6">
-        <p className="text-white font-medium uppercase">Hourly ForeCast</p>
+        <p className="text-white font-medium uppercase">{title}</p>
       </div>
       <hr className="my-2" />
       <div className="flex flex-row items-center justify-between text-white">
