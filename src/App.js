@@ -2,13 +2,13 @@ import Cities from './components/Cities';
 import CityInput from './components/CityInput';
 import DateTimeLocation from './components/DateTimeLocation';
 import Forecast from './components/Forecast';
-import getWeatherData from './components/services/weatherService';
+import getFormattedWeatherData from './components/services/weatherService';
 import WeatherParameters from './components/WeatherParameters';
 // import UilReact from '@iconscout/react-unicons/icons/uil-react';
 
 function App() {
   const fetchWeatherParameters = async () => {
-    const weatherParameters = await getWeatherData('weather', { q: 'Lusaka' });
+    const weatherParameters = await getFormattedWeatherData({ q: 'Lusaka' });
     // eslint-disable-next-line
     console.log(weatherParameters);
   };
